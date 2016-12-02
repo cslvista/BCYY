@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE DataAccess[]>
+<DataAccess>
+  <GDService>
+    <add key="IRouteService"   EAddress="net.tcp://192.168.8.16:8881/IRouteService" BindingStr="NetTcp" Note="路由服务"/>
+  </GDService>
+  <FTPConfion>
+    <add key="FTP" FTPSvr="192.168.8.16" User="cfdata" UsePassive="" Port="21" Note="UsePassive PORT主动模式 PASV被动模式"/>
+  </FTPConfion>
+</DataAccess>
